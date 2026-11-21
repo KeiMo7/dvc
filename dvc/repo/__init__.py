@@ -65,6 +65,7 @@ class Repo:
     DVC_DIR = ".dvc"
 
     from dvc.repo.add import add  # type: ignore[misc]
+    from dvc.repo.audit import audit  # type: ignore[misc]
     from dvc.repo.checkout import checkout  # type: ignore[misc]
     from dvc.repo.commit import commit  # type: ignore[misc]
     from dvc.repo.destroy import destroy  # type: ignore[misc]

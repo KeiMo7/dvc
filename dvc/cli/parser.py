@@ -8,6 +8,7 @@ from dvc import __version__
 from dvc.commands import (
     add,
     artifacts,
+    audit,
     cache,
     check_ignore,
     checkout,
@@ -59,6 +60,7 @@ logger = logger.getChild(__name__)
 COMMANDS = [
     add,
     artifacts,
+    audit,
     cache,
     check_ignore,
     checkout,
